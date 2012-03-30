@@ -1,0 +1,6 @@
+AuthUserFile /homez.116/losconqu/porra2010/adminmundi/.htpasswd
+AuthType Basic
+AuthName ".: Super Porra Mundial 2010 :."
+<Limit GET POST>
+require valid-user
+</Limit>

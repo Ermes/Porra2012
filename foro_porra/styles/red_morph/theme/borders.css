@@ -1,0 +1,110 @@
+/*  phpBB 3.0 Style Sheet
+    --------------------------------------------------------------
+   Style name:         red_morph
+   Based on style:      proSilver (this is the default phpBB 3 style)
+   Original author:   subBlue ( http://www.subBlue.com/ )
+   Modified by:      thedawn2009 (mikel_man, Barrys)
+   
+   Copyright 2006 phpBB Group ( http://www.phpbb.com/ )
+    --------------------------------------------------------------
+*/
+
+/*     
+--------------------------------------------------------------
+html, body tag copy from colours.css inhere
+-------------------------------------------------------------- */
+html, body {
+   color: #68696D;
+   background-color: #E0BE9D;
+/*    background-image: url("{T_THEME_PATH}/images/yourbg.gif");*/ /* CHANGE: path and name of your image */   
+}
+
+/*     
+--------------------------------------------------------------
+#wrap tag copy from common.css inhere
+-------------------------------------------------------------- */
+#wrap {  
+   padding: 0 20px;  
+   min-width: 700px;  
+   width: 900px;  
+   margin: 0 auto;  
+}  
+
+
+/* additional proSilver Markup Styles outside rouded
+----------------------------------------------------------- */
+.top-left, .top-right, .bottom-left, .bottom-right { 
+   height: 20px;       /* CHANGE: replace by the height of one of your corners (= 1/2 height of the image) */
+   weidth: 20px;       /* CHANGE: replace by the height of one of your corners (= 1/2 height of the image) */
+   font-size: 2px;    /* DNC: correction IE for height of the <div>'s */
+   }
+   
+.top-left { 
+   background-image: url("{T_THEME_PATH}/images/borders/corners_top.gif"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
+   background-position: 0 -20px; /* CHANGE: replace second number by negative height of one of your corners */
+   margin-left: 1px;  /* CHANGE: replace by the width of one of your corners */
+   margin-top: 0px;  /* CHANGE: replace by the height of one of your corners */
+   margin-right: 9px; /* CHANGE: replace by the width of one of your corners */
+   }
+.top-right { 
+   background-image: url("{T_THEME_PATH}/images/borders/corners_top.gif"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
+   background-position: 100% 0;    /* DNC: position right corner at right side, no vertical changes */
+   margin-left: 0px;  /* CHANGE: replace by the width of one of your corners */
+   margin-top: -9px;  /* CHANGE: replace by the height of one of your corners */
+   margin-right: 1px; /* CHANGE: replace by the width of one of your corners */   
+   }
+.top-center { 
+   background-image: url("{T_THEME_PATH}/images/borders/bg_headers.gif"); /* CHANGE: path and name of your image */
+   background-position: 0 0px; /* CHANGE: replace second number by negative height of one of your corners */
+   height: 20px;       /* CHANGE: replace by the height of one of your corners (= 1/2 height of the image) */
+   weidth: 20px;       /* CHANGE: replace by the height of one of your corners (= 1/2 height of the image) */
+   font-size: 2px;    /* DNC: correction IE for height of the <div>'s */
+   margin-left: 20px;  /* CHANGE: replace by the width of one of your corners */
+   margin-top: -20px;  /* CHANGE: replace by the height of one of your corners */
+   margin-right: 20px; /* CHANGE: replace by the width of one of your corners */ 
+   margin-bottom: -20px; /* CHANGE: replace by the width of one of your corners */ 
+   }
+   
+.bottom-left  { 
+   background-image: url("{T_THEME_PATH}/images/borders/corners_bottom.gif"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
+   background-position: 0 0px; /* CHANGE: replace second number by negative height of one of your corners */
+   margin-right: 0px; /* CHANGE: replace by the width of one of your corners */
+   margin-left: 1px;  /* CHANGE: replace by the width of one of your corners */
+   margin-top: 0px;  /* CHANGE: replace by the height of one of your corners */
+   }
+.bottom-right { 
+   background-image: url("{T_THEME_PATH}/images/borders/corners_bottom.gif"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
+   background-position: 100% -20px; /* CHANGE: replace second number by negative height of one of your corners */
+   margin-right: 1px; /* CHANGE: replace by the width of one of your corners */
+   margin-left: 0px;  /* CHANGE: replace by the width of one of your corners */
+   margin-top: -20px;  /* CHANGE: replace by the height of one of your corners */
+   }
+.bottom-center { 
+   background-image: url("{T_THEME_PATH}/images/borders/bg_footers.gif"); /* CHANGE: path and name of your image */
+   background-position: 0 0px; /* CHANGE: replace second number by negative height of one of your corners */
+   height: 20px;       /* CHANGE: replace by the height of one of your corners (= 1/2 height of the image) */
+   weidth: 20px;       /* CHANGE: replace by the height of one of your corners (= 1/2 height of the image) */
+   font-size: 2px;    /* DNC: correction IE for height of the <div>'s */
+   margin-left: 20px;  /* CHANGE: replace by the width of one of your corners */
+   margin-top: -20px;  /* CHANGE: replace by the height of one of your corners */
+   margin-right: 20px; /* CHANGE: replace by the width of one of your corners */ 
+   margin-bottom: -20px; /* CHANGE: replace by the width of one of your corners */ 
+   }
+
+.inside {
+   border-left: 0px solid #000000; /* YCC: color & properties of the left-borderline */
+   border-right: 0px solid #000000;/* YCC: color & properties of the right-borderline */
+   background: #FFFFFF;            /* YCC: background-color of the inside */
+   color: #C34815;                 /* YCC: default text-color of the inside */
+   padding-left: 0px;              /* YCC: all texts at some distance of the left border */
+   padding-right: 0px;             /* YCC: all texts at some distance of the right border */
+   background-image: url("{T_THEME_PATH}/images/borders/bg_body.gif"); /* CHANGE: path and name of your image */
+   }
+   
+.notopgap    { margin-top: 0; }    /* DNC: to avoid splitting of the box */
+.nobottomgap { margin-bottom: 0; } /* DNC: to avoid splitting of the box */
+
+.outside {
+   margin: 0 auto;
+   width : 950px;
+   }

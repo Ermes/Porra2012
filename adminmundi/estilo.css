@@ -1,0 +1,161 @@
+body {
+   margin-left:      0px;
+   margin-right:     2px;
+   margin-top:       2px;
+   margin-bottom:    2px;
+   padding-left:     3px;
+   padding-right:    3px;
+   padding-top:      0px;
+   padding-bottom:   0px;
+   border: 0;
+   text-decoration:  none;
+   font-family:      "Century Gothic", "Helvetica", sans-serif;
+   scrollbar-base-color:       #ff4444;
+   scrollbar-face-color:       #ff4444;
+   scrollbar-3dlight-color:    #ff4444;
+   scrollbar-highlight-color:  #ff4444;
+   scrollbar-shadow-color:     #ff4444;
+   scrollbar-darkshadow-color: #cc1111;
+   scrollbar-track-color:      #cc1111;
+   scrollbar-arrow-color:      #ff4444;
+   overflow: auto
+}
+
+#menu a {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Century Gothic", "Helvetica", sans-serif;
+	font-weight: bold;
+	width: 185px;
+}
+
+#menu td {
+  cursor: hand;
+	text-align: center;
+  vertical-align: middle;
+  height: 22px;
+}
+
+
+td.menu {
+  vertical-align: middle;
+  height: 22px;
+	font-size: 12px;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Century Gothic", "Helvetica", sans-serif;
+	font-weight: bold;
+}
+
+
+.titl { font: bold 15px "Century Gothic", Verdana, sans-serif; color: #880000; }
+h1 { font: bold 18px "Century Gothic", Verdana, sans-serif; color: #bb0000; }
+h2 { font: bold 15px "Century Gothic", Verdana, sans-serif; color: #b00; }
+h3 { font: 13px "Century Gothic", Verdana, sans-serif; color: #880000; text-align: justify; }
+
+.aviso { font: 11px Verdana, Arial, sans-serif; color: #bb0000; }
+
+
+
+
+
+
+
+
+/* logo titulo */
+#logo {
+	position: absolute;
+	left: 5%;
+	top: 25px;
+  z-index: 20
+}
+#logo img {
+        border: 0;
+}
+#HeaderContent{position:absolute;height:105px;width:500x;top:16px;left:250px;}
+#hcCountdown{position:absolute;top:70px;left:1px;z-index:1;margin:0;padding:0;width:158px;height:28px;background-color:Transparent;}
+#hTrixFlix {position:absolute;background:url(./imagenes/trixflix.png);height:105px;width:155px;top:16px;left:700px;}
+.ie6 #hTrixFlix {background:none;;height:105px;width:155px;top:16px;left:700px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop src='http://img.uefa.com/ml/e8/header/mascot/trixflix.png');}
+
+.nota { font: 10px Verdana, Arial, sans-serif; color: #000000; }
+
+TD { font: 12px "Century Gothic", Verdana, sans-serif; color: #bb0000; }
+
+
+#contenido {
+	margin: 0;
+	position: absolute;
+	top: 150px;
+}
+#footer {
+  position: absolute;
+  position: fixed;
+	top: 95%;
+	left: 20px;
+}
+
+
+
+#noticias  
+{
+	position: absolute;
+	top: 0px;
+	left: 250px;
+}
+
+#noticias td 	{	color:#000000; }
+
+#clasificacion {
+	position: absolute;
+	top: 150px;
+	left: 250px;
+}
+#clasificacion td 	{	color:#000000; }
+
+#central 
+{
+	position: absolute;
+	top: 20px;
+	left: 250px;
+}
+#campeon
+{
+	position: absolute;
+	top: 20px;
+	left: 650px;
+}
+
+#central td 	{	color:#000000; }
+
+
+#estadisticas {
+	position: absolute;
+	top: 370px;
+	left: 250px;
+
+}
+#estadisticas td {	color:#000000; }
+
+#centrado {
+	position: absolute;
+	top: 0px;
+	left: 250px;
+
+}
+#margen_dcho{
+	position: absolute;
+	top: 60px;
+	left: 800px
+}
+#margen_dcho td {	color:#000000; }
+
+#pie
+{
+  position: relative;
+  text-align: center;
+	font-size: 10px;
+	padding: 5px 5px 0 0;       
+}
+
